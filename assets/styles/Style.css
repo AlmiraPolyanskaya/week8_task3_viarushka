@@ -1,19 +1,15 @@
-p {
-    font-size: 20px;
-}
-
 .header {
     margin-top: 1%;
     width: 80%;
     padding-bottom: 1%;
 }
 
-.logo {
+.header__logo {
     position: absolute;
     margin-left: 4%;
 }
 
-.header-nav {
+.header__navigation {
     float: right;
 }
 
@@ -21,13 +17,13 @@ br {
     float: none;
 }
 
-.footer-nav {
+.footer__navigation {
     margin-left: 50px;;
     width: 100%;
     float:none;
     }
 
-.footer-nav ul {
+.footer__navigation ul {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -36,14 +32,14 @@ br {
     padding: 0;
 }
 
-.footer-nav li a {
+.footer__navigation li a {
     color: #5222D0;
     text-decoration: none;
     padding: 10px;
     font-size: 20px;
 }
 
-.footer-nav li:hover {
+.footer__navigation li:hover {
     cursor: pointer;
     border-bottom: 1px solid blue;
 }
@@ -54,7 +50,7 @@ margin-bottom: 60px;
 width: 80%;
 }
 
-.container_opportunities {
+.container__opportunities {
     display: grid;
     grid-template-columns: 30% 30% 30%;
     grid-template-rows: 3fr 1fr;
@@ -62,10 +58,14 @@ width: 80%;
     gap: 50px;
 }
 
-.main_container {
-    width: 80%;
-    height: 78vh;
-    padding-left: 50px;;
+.container__opportunities__card {
+    font-size: 20px;
+}
+
+.main-container {
+    width: 70%;
+    height: 74vh;
+    padding-left: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -73,14 +73,14 @@ width: 80%;
     padding: 60px;
 }
 
-.main_container_first{
-    display:flex;
-    flex-direction: column;
-    justify-items: center;
+.main-container__card{
+    display: grid;
+    grid-template-columns: 600px;
+    grid-template-rows: 350px 200px 200px;
 }
 
-.main_button {
-    padding-left: 35px;;
+.main-container__card__button {
+    padding-left: 35px;
 }
 
 h1 {
@@ -97,7 +97,7 @@ h3 {
     padding-left: 40px;
 }
 
-.button1, .button2 {
+.button_secondary, .button_primary {
     background-color: #5C4EAE;
     border-color: #5C4EAE;
     border-style: solid;
@@ -106,24 +106,24 @@ h3 {
     color: white;
 }
 
-.button1 {
+.button_secondary {
     width: 270px;
     height: 84px;
     font-size: 35px;
 }
 
-.button2 {
+.button_primary {
     width: 115px;
     height: 38px;
     font-size: 13px;
 }
 
-.button1:hover,
-.button2:hover {
+.button_secondary:hover,
+.button_primary:hover {
     cursor: pointer;
 }
 
-.form {
+.container__opportunities__form {
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
