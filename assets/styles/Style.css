@@ -1,0 +1,144 @@
+p {
+    font-size: 20px;
+}
+
+.header {
+    margin-top: 1%;
+    width: 80%;
+    padding-bottom: 1%;
+}
+
+.logo {
+    position: absolute;
+    margin-left: 4%;
+}
+
+.header-nav {
+    float: right;
+}
+
+br {
+    float: none;
+}
+
+.footer-nav {
+    margin-left: 50px;;
+    width: 100%;
+    float:none;
+    }
+
+.footer-nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-nav li a {
+    color: #5222D0;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.footer-nav li:hover {
+    cursor: pointer;
+    border-bottom: 1px solid blue;
+}
+
+.container {
+padding-left: 60px;
+margin-bottom: 60px;
+width: 80%;
+}
+
+.container_opportunities {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 3fr 1fr;
+    justify-content: center;
+    gap: 50px;
+}
+
+.main_container {
+    width: 80%;
+    height: 78vh;
+    padding-left: 50px;;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.main_container_first{
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.main_button {
+    padding-left: 35px;;
+}
+
+h1 {
+font-size: 60px;
+padding-left: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+.button1, .button2 {
+    background-color: #5C4EAE;
+    border-color: #5C4EAE;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    color: white;
+}
+
+.button1 {
+    width: 270px;
+    height: 84px;
+    font-size: 35px;
+}
+
+.button2 {
+    width: 115px;
+    height: 38px;
+    font-size: 13px;
+}
+
+.button1:hover,
+.button2:hover {
+    cursor: pointer;
+}
+
+.form {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #EC615B;
+    padding: 10px;
+    justify-content: center;
+}
+
+.label {
+    font-size: 30px;
+    color: white;
+}
+
+.email {
+width: 90%;
+}
